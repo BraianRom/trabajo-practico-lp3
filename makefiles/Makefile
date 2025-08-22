@@ -34,7 +34,7 @@ $(CAPS):
 	  $(CC) $(CFLAGS) $(SRC)/$$chapter/$$listing.c -o $(BIN)/$$chapter/$$listing; \
 	  echo "✅ Compilado: $(BIN)/$$chapter/$$listing"; \
 	else \
-	  echo "❌ No existe el archivo $(SRC)/$$chapter/$$listing.c"; \
+	  echo "No existe el archivo $(SRC)/$$chapter/$$listing.c"; \
 	fi
 
 # ================================
