@@ -1,0 +1,7 @@
+# Ignorar ejecutables compilados
+bin/
+
+# Archivos temporales
+*.o
+*.out
+*.log
